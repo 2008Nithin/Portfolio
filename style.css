@@ -17,3 +17,23 @@
     padding: 25px;
     border: 1px none rgb(194, 185, 185);
 }
+
+.about {
+    margin: 10px auto;
+    border: 3px solid black;
+    width: 1000px;
+    height: 250px;
+    display: grid;
+    grid-template-areas: "h1"
+                         "p img";
+    grid-template-rows: 125px 125px;
+    grid-template-columns: 250px 250px 250px;
+    justify-items: center;
+
+}
+
+.about img {
+    grid-column-start: 3;
+}
+
+
