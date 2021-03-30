@@ -36,4 +36,22 @@
     grid-column-start: 3;
 }
 
+.about h4 {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    left: 15px;
+}
+
+.about h1{
+    text-align: center;
+    height: 48%;
+    background-color: palevioletred;
+}
+
+.projects {
+    width: 350px;
+    margin: 10px auto;
+    border: 3px solid black;
+}
 
