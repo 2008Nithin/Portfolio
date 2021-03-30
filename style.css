@@ -1,0 +1,19 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.nav-bar button {
+    background-color: rgb(89, 204, 156);
+    width: 20%;
+    padding: 25px;
+    border: 1px none rgb(194, 185, 185);
+}
